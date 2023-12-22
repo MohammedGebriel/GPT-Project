@@ -1,0 +1,44 @@
+.whatgpt3 {
+    padding: 2rem;
+    background-color: var(--color-footer);
+}
+.whatgpt3 .whatgpt3-heading {
+    margin: 4rem 0 2rem;
+}
+.whatgpt3 .whatgpt3-heading h1 {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+.whatgpt3 .whatgpt3-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--color-subtext);
+    color: rgb(18, 57, 99);
+    cursor: pointer;
+}
+.whatgpt3 .whatgpt3-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}   
+.whatgpt3 .whatgpt3-feature .features-container-feature {
+    display: flex;
+    margin: 1rem;
+}
+@media (max-width: 576px) {
+    .whatgpt3 .whatgpt3-feature .features-container-feature {
+        display: block;
+    }
+    .whatgpt3 .whatgpt3-heading {
+        display: block !important;
+    }
+    .whatgpt3 .whatgpt3-heading p {
+        margin-top: 20px;
+    }
+}
+
+

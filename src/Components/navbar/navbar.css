@@ -1,0 +1,102 @@
+.navbar {
+    padding: 2rem 6rem !important;
+}
+.navbar .links .logo {
+    margin-right: 2rem;
+}
+
+.navbar .links .logo img {
+    width: 62px;
+    height: 16px;
+}
+.navbar .links-container p,
+.navbar .links .sign p,
+.navbar .menu-container p {
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    
+}
+.navbar .sign button,
+.navbar .menu-container button {
+    background-color: #ff4820;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.navbar .menu {
+    display: none;
+    margin-left: 1rem;
+    position: relative;
+}
+.navbar .menu svg {
+    cursor: pointer;
+}
+.navbar .menu .menu-container {
+    text-align: right;
+    background-color: var(--color-footer);
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    /* margin-top: 1rem; */
+    min-width: 210px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.navbar .menu .menu-container p {
+    margin: 1rem 0;
+}
+.navbar .menu .menu-sign {
+    display: none !important;
+}
+@media (max-width: 1200px) {
+    .navbar .links .links-container {
+        display: none !important;
+    }
+    .navbar .menu {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding: 2rem 4rem !important;
+    }
+}
+@media (max-width: 576px) {
+    .navbar {
+        padding: 2rem  !important;
+    }
+    .navbar .sign {
+        display: none !important;
+    }
+    .navbar .links {
+        justify-content: space-between !important;
+    }
+    .navbar .menu .menu-container {
+        top: 40px;
+    }
+    .navbar .links .menu-sign {
+        display: block !important;
+
+    }
+}
+
